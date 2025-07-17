@@ -1,0 +1,45 @@
+package testNG;
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+public class Test3 {
+	
+	@Test
+	public void webLogin() {
+		//selenium
+		System.out.println("Web login car");
+	}
+	@Test
+	public void mobileLogin1() {
+		//appium
+		System.out.println("Mobile login car");
+	}
+	public void mobileLogin2() {
+		//appium
+		System.out.println("Mobile login car");
+	}
+	@BeforeSuite
+	public void beforesuit() {
+		//appium
+		System.out.println("Test 1(Before suit)");
+	}
+	
+	@BeforeMethod
+	public void beforemethod() {
+		System.out.println("execute in test 3 before every method (BeforeMethod)");
+	}
+	
+	@AfterMethod
+	public void aftermethod() {
+		System.out.println("execute after each method in this class");
+	}
+	
+	@Test
+	public void APILohin() {
+		//rest api automation
+		System.out.println("API login car");
+	}
+}

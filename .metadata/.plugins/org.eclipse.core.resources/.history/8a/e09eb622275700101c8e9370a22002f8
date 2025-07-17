@@ -1,0 +1,24 @@
+package seleniumWebDriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
+/*
+  Test Case:
+  1. launch browser
+  2. open url https:// demo.opencart.com/
+  3. validate title should be "Your Store"
+  4. close browser
+ */
+public class Day1 {
+	
+	public static void main(String[] args) {
+		
+		// 1. launch browser
+		//ChromeDriver driver= new ChromeDriver();
+		WebDriver driver= new ChromeDriver();
+		
+		// 2. open url https:// demo.opencart.com/
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		driver.getTitle();
+	}
+}

@@ -1,0 +1,34 @@
+package prac;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class TestNg {
+	WebDriver driver;
+	
+	@BeforeClass
+	public void setup() {
+		driver= new ChromeDriver();
+		driver.manage().window().maximize();
+		
+	}
+	@Test(priority = 3)
+	public void goToGoogle() {
+		driver.get("https://www.google.com");
+		driver.getTitle();
+	}
+	@Test(priority = 1)
+	public void rShetty() {
+		driver.get("http://www.rahulshettyacademy.com/");
+		driver.getTitle();
+	}
+	@Test(priority = 2)
+	public void orangeHRM() {
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		driver.getTitle();
+	}
+
+}

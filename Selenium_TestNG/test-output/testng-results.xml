@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-17T14:19:50 IST" name="Default suite" finished-at="2025-07-17T14:19:50 IST" duration-ms="85">
+    <groups>
+    </groups>
+    <test started-at="2025-07-17T14:19:50 IST" name="Default test" finished-at="2025-07-17T14:19:50 IST" duration-ms="85">
+      <class name="testNG.Test3">
+        <test-method is-config="true" signature="beforesuit()[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="beforesuit" finished-at="2025-07-17T14:19:50 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="beforeclass" finished-at="2025-07-17T14:19:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="beforemethod" finished-at="2025-07-17T14:19:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="APILohin(java.lang.String,java.lang.String)[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="APILohin" data-provider="getData" finished-at="2025-07-17T14:19:50 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILohin -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="aftermethod" finished-at="2025-07-17T14:19:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="APILohin(java.lang.String,java.lang.String)[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="APILohin" data-provider="getData" finished-at="2025-07-17T14:19:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILohin -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="beforemethod" finished-at="2025-07-17T14:19:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="aftermethod" finished-at="2025-07-17T14:19:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="beforemethod" finished-at="2025-07-17T14:19:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="APILohin(java.lang.String,java.lang.String)[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="APILohin" data-provider="getData" finished-at="2025-07-17T14:19:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILohin -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="aftermethod" finished-at="2025-07-17T14:19:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testNG.Test3@350aac89]" started-at="2025-07-17T14:19:50 IST" name="afterclass" finished-at="2025-07-17T14:19:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- testNG.Test3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

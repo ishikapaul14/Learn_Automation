@@ -1,0 +1,17 @@
+package testNG;
+
+import org.testng.annotations.Test;
+
+public class Test1 {
+	
+	@Test
+	public void firstTest() {
+		System.out.println("Hi");
+	}
+	
+	@Test
+	public void secondTest() {
+		System.out.println("Bye");
+	}
+	
+}

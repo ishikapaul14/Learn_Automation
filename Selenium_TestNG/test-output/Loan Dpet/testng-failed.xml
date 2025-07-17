@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Dpet]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="qaclickacademy.com"/>
+  <parameter name="username" value="UESRNMAE"/>
+  <test thread-count="5" name="Personal loan(failed)">
+    <parameter name="URL" value="personal.com"/>
+    <parameter name="username" value="NameOfUser"/>
+    <groups>
+      <run>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testNG.Test2">
+        <methods>
+          <include name="lastexecution"/>
+          <include name="prerequisite"/>
+        </methods>
+      </class> <!-- testNG.Test2 -->
+    </classes>
+  </test> <!-- Personal loan(failed) -->
+</suite> <!-- Failed suite [Loan Dpet] -->
